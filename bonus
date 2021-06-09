@@ -1,0 +1,13 @@
+Problem 4a Bonus
+
+POI1 and POI2 are in Edmonton. POI3 is in Montreal. POI4 is in Halifax.
+
+As I described in Problem 3:
+---
+I get the impression that the data provided was incorrect. All of the request data lists the Country as Canada. However, many data points do not align with this.
+
+For instance, we have a request with (lat,long) of (7.29323,125.70220). This is listed as being in Toronto, Canada. However, it is in fact in the Phillipines. Thus the radii for the POI are much bigger than expected, and expand far past Canada in some cases.
+---
+Therefore the data provided is faulty, so any analysis done on the dataset will probably yield invalid results.
+
+Despite the POI all being located in large cities, POI1, POI2, and POI4 have extremely large radii when encircling the assigned requests. This tells us that there aren't enough POI: Canada should have more Points of Interest spread throughout the country, so that people extremely far from Edmonton, Halifax, or Montreal can make requests and visit POI closer to them.
